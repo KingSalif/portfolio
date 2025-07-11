@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio de King_Salif</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">King_Salif</div>
+      <ul class="nav-links">
+        <li><a href="#about">À propos</a></li>
+        <li><a href="#skills">Compétences</a></li>
+        <li><a href="#projects">Projets</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero">
+      <div class="hero-content">
+        <img src="./image/photo.jpeg" alt="Photo de King_Salif" class="profile-photo">
+        <div>
+          <h2>Développeur & Créateur de Contenus</h2>
+          <p>Je conçois des applications mobiles et je suis développeur web.</p>
+          <a href="#contact" class="btn">Me Contacter</a>
+          <a href="jeu.html" class="btn secondary">On joue un peu</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>À propos de moi</h2>
+      <div class="about-container">
+        <p>
+          Je suis <strong>Ayouba Barké Salifou</strong>, passionné par la programmation, le développement mobile et la création de contenus comiques.<br>
+          Avec une expertise en <strong>HTML/CSS</strong> et un intérêt pour <strong>Java, JavaScript</strong>, je cherche à innover et à inspirer à travers mes projets.<br>
+          Je perfectionne mes connaissances en <strong>Go</strong> et <strong>Python</strong>.<br>
+          J'ai aussi acquis des compétences en <strong>Community management</strong> et en <strong>E-commerce</strong>.<br>
+          Je suis également <strong>Graphiste Designer</strong> (Photoshop, Canva) et je maîtrise le montage vidéo (Capcut, etc).
+        </p>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Compétences</h2>
+      <ul class="skills-list">
+        <li>Développement mobile avec HTML/CSS</li>
+        <li>Graphiste Designer</li>
+        <li>Programmation en Python / Go</li>
+        <li>Programmation C/C++</li>
+        <li>Community management</li>
+        <li>Maîtrise de SQL/PHP</li>
+        <li>Gestion de projets et finances (SCTG au CEDMI)</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projets</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>Application Web de gestion d'une Briqueterie</h3>
+          <p>Application dédiée à la gestion d'une briqueterie : commandes, achats, gestion des stocks et visualisation des types de briques disponibles.</p>
+        </div>
+        <div class="project-card">
+          <h3>Gestionnaire des pages & Créateur de contenus</h3>
+          <p>Création de comédies, tutoriels vidéo sur YouTube et TikTok.</p>
+        </div>
+        <div class="project-card">
+          <h3>Projets Académiques</h3>
+          <p>Résolution de problèmes avec Prolog et exploration de la logique informatique.</p>
+        </div>
+        <div class="project-card">
+          <h3>Boutique en ligne</h3>
+          <p>Site web e-commerce : publication et gestion des commandes d’articles.</p>
+        </div>
+        <div class="project-card">
+          <h3>Algorithmes de remplacement de pages</h3>
+          <p>Projet informatique sur les systèmes d’exploitation.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <form class="contact-form" action="mailto:ayoubasalifou83@gmail.com" method="post" enctype="text/plain">
+        <div class="form-group">
+          <label for="name">Nom</label>
+          <input type="text" id="name" name="name" placeholder="Votre nom" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Votre email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" placeholder="Votre message..." required></textarea>
+        </div>
+        <button type="submit" class="btn">Envoyer</button>
+      </form>
+      <div class="contact-infos">
+        <p><strong>Téléphone :</strong> <a href="tel:+22791095742">+227 91 09 57 42</a></p>
+        <p><strong>Email :</strong> <a href="mailto:ayoubasalifou83@gmail.com">ayoubasalifou83@gmail.com</a></p>
+        <a href="./cv/Cv Salifou Ayouba 2.pdf" target="_blank" class="btn secondary">Télécharger mon CV</a>
+      </div>
+      <div class="social-links">
+        <a href="https://wa.me/+22791095742" target="_blank"><img src="./image/whatsapp.png" alt="whatsapp"></a>
+        <a href="https://www.facebook.com/share/1ELwHcPB6i/?mibextid=LQQJ4d" target="_blank"><img src="./image/facebook.jpeg" alt="Facebook"></a>
+        <a href="https://www.instagram.com/king_salif_officiel/profilecard" target="_blank"><img src="./image/instagram.jpeg" alt="Instagram"></a>
+        <a href="https://www.linkedin.com/in/salifou-ayouba-67037333a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><img src="./image/linkdn.jpeg" alt="LinkedIn"></a>
+        <a href="https://youtube.com/@salifouayouba" target="_blank"><img src="./image/youtube.jpeg" alt="Youtube"></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 King_Salif. Tous droits réservés.</p>
+  </footer>
+</body>
+</html>
